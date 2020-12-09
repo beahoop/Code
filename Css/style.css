@@ -1,0 +1,154 @@
+
+.product-text {
+  font-size: 15pt;
+}
+.prodcut-details{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+nav {
+    background: white;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow:auto;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+}
+nav a {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: "Varela Round";
+    width: 100px;
+    padding: 10px;
+}
+.nav-left a {
+    color:#ff5c36;
+}
+.nav-right a {
+    color:#fcaaae;
+}
+.nav-left {
+    float: left;
+    word-spacing: normal;
+}
+.nav-left ul li {
+    float: left;
+}
+.nav-right ul li {
+    float: right;
+}
+.container{
+   padding: 100px;
+   background-image: linear-gradient(to right, #e01f72 , #ff5023);
+   color: white;
+}
+.back{
+  font-family: "Varela Round";
+  font-size: 8pt;
+}
+.big-shoe{
+    float: left;
+}
+
+.h1 {
+font-family: "Varela Round";
+font-weight: bold;
+font-size: 35pt;
+padding-left: 550px;
+margin: 0px
+}
+
+.h2 {
+color: #9a2a40;
+font-family: "Varela Round";
+font-size: 12pt;
+padding-left: 550px;
+margin: 0px
+}
+.border {
+ color: #9a2a40;
+ font-size:3 px;
+ padding-left: 550px;
+}
+
+.p1 {
+  right: 16px;
+  font-family: "Varela Round";
+  vertical-align: middle;
+  padding-left: 550px;
+  font-size: 12pt;
+}
+.product-price{
+  right: 16px;
+  font-family: "Varela Round";
+  vertical-align: middle;
+  padding-left: 550px;
+  font-size: 15pt;
+  float: left;
+}
+.button-1{
+  padding-right: 220px;
+  padding-top: 5px;
+
+}
+.button {
+  float: right;
+  background-color: white;
+  border: none;
+  font-family: "arial rounded mt bold";
+  color:#9a2a40 ;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow:auto;
+}
+footer a {
+font-weight: bold;
+font-size: 10pt;
+font-family: "Varela Round";
+width: 100px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.footer-right a {
+  padding: 2px;
+    color:grey;
+    font-size: 7pt;
+}
+.footer-right ul li {
+    float: right;
+    word-spacing: 10pt:
+}
+.footer-left {
+    float: left;
+    word-spacing: normal;
+}
+.footer-left ul li {
+    float: left;
+}
+.footer-left a {
+  padding: 10px;
+    color:#ff5c36;
+}
