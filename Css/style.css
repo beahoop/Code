@@ -15,13 +15,17 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0px;
-    padding: 10px;
+    padding: 15px;
     overflow:auto;
 }
 .nav a:hover {
   text-decoration: underline;
+  color: #9a2a40;
+  text-decoration-color: #fcaaae;
+  text-underline-position: below;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
 }
-
 a:link {
   text-decoration: none;
 }
@@ -48,24 +52,38 @@ nav a {
 .nav-right ul li {
     float: right;
 }
+.top-banner{
+   background-image: linear-gradient(to right, #d82068 , #ed4039);
+   padding-top: 10px;
+}
 .container{
-   padding: 100px;
+   padding-top: 15px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 120px;
    background-image: linear-gradient(to right, #e01f72 , #ff5023);
    color: white;
 }
 .back{
   font-family: "Varela Round";
-  font-size: 45pt;
+  font-size: 10pt;
+  padding-left: 0px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 .big-shoe{
-    float: left;
+  float:left;
+  margin-top:40px;
+  margin-left: 60px;
+  position:relative;
 }
-
+.top-right{
+  padding-left: 650px;
+}
 .h1 {
 font-family: "Varela Round";
 font-weight: bold;
 font-size: 35pt;
-padding-left: 550px;
 margin: 0px
 }
 
@@ -73,34 +91,44 @@ margin: 0px
 color: #9a2a40;
 font-family: "Varela Round";
 font-size: 12pt;
-padding-left: 550px;
-margin: 0px
+margin: 0px;
+margin-bottom: 20px;
+
 }
 .border {
+ border-style: dashed;
  color: #9a2a40;
- font-size:3 px;
- padding-left: 550px;
+ border-width: 1px;
+ border-spacing: 40px;
 }
 
+
 .p1 {
-  right: 16px;
   font-family: "Varela Round";
-  vertical-align: middle;
-  padding-left: 550px;
   font-size: 12pt;
+  line-height: 25pt;
+}
+.read-rew{
+  font-family: "Varela Round";
+  font-size: 12pt;
+  color: #9a2a40;
+  float: right;
+  margin-top: -45px;
+  margin-right: -15px;
+  text-decoration: underline;
 }
 .product-price{
   right: 16px;
-  font-family: "Varela Round";
+  font-family: "arial rounded mt bold";
   vertical-align: middle;
-  padding-left: 550px;
-  font-size: 15pt;
-  float: left;
+  font-size: 20pt;
+  float:left;
+
 }
 .button-1{
+  padding-top: 20px;
   padding-right: 220px;
-  padding-top: 5px;
-
+  margin: 0px;
 }
 .button {
   float: right;
@@ -115,6 +143,101 @@ margin: 0px
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 12px;
+}
+.nav4{
+  padding: 0px
+}
+.nav4 a:hover {
+  text-decoration: underline;
+  color: #9a2a40;
+  text-decoration-color: #fcaaae;
+  text-underline-position: below;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 5px;
+}
+.nav4 ul li {
+    float: left;
+    color: #ff8164;
+    padding: 0px;
+}
+.rew{
+  float: right;
+  color: #ff8164;
+  margin-top: 15px;
+}
+.container2 {
+    list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: "Varela Round";
+    Color: #ff5c36;
+
+}
+h3{
+  font-size: 15pt;
+  font-family: "Varela Round";
+  color: #4f3126;
+  margin-left: 20pt;
+}
+h4{
+  font-size: 12pt;
+  font-family: "Varela Round";
+  color: #4f3126;
+  margin-left: 20pt;
+}
+
+.detail-p{
+  font-size: 12pt;
+  font-family: "Varela Round";
+  color: grey;
+  margin-left: 20pt;
+}
+.border-line{
+  margin-left: 20pt;
+  margin-top: -6px;
+  border-style:solid;
+  color: #fcaaae;
+  border-width: thin;
+}
+.b-banner{
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(to right, #e01f72 , #ff5023);
+
+}
+.flex-container {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: LEFT;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+.flex-item2 {
+  font-size: 15pt;
+  font-family: "Varela Round";
+  color: White;
+  justify-content:flex-end;
+}
+.flex-item3 {
+  font-size: 8pt;
+  font-family: "Varela Round";
+  color: #9a2a40;
 }
 
 footer ul {
@@ -131,6 +254,11 @@ width: 100px;
 }
 footer a:hover {
   text-decoration: underline;
+  color: #9a2a40;
+  text-decoration-color: #fcaaae;
+  text-underline-position: below;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
 }
 .footer-right a {
   padding: 2px;
