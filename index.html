@@ -7,7 +7,6 @@
       <title>Quick Sneakers</title>
   </head>
   <body>
-      <script src="javascript/script.js"> </script>
   <nav class="nav" width=100%>
     <div class="nav-left">
         <ul>
@@ -54,8 +53,8 @@
       <nav class="nav4">
             <li class="rew" onclick="myFunction()"><a >Reviews ★★★★☆</a></li>
             <ul>
-                <li onclick="productDetails()"><a >Product Details</a></li>
-                <li onclick="sizeAndFit()"><a >Size & Fit</a></li>
+                <li><a onclick="elementSwitcher('productDetails')">Product Details</a></li>
+                <li onclick="elementSwitcher('sizeAndFit')"><a >Size & Fit</a></li>
             </ul>
             <div class="border-line"></div>
             <div id="productDetails" >
@@ -131,5 +130,6 @@
             <li><a href="#"> <u> Shipping |</u></a></li>
           </ul>
       </div>
+      <script src="javascript/script.js"> </script>
   </footer>
 </html>
