@@ -8,11 +8,11 @@
   margin-right: auto;
   width: 75%;
 }
-nav {
+.nav {
     background: white;
     padding: 15px;
 }
-nav ul {
+.nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 15px;
@@ -29,7 +29,7 @@ nav ul {
 a:link {
   text-decoration: none;
 }
-nav a {
+.nav a {
     font-weight: bold;
     font-size: 12pt;
     font-family: "Varela Round";
@@ -74,7 +74,7 @@ nav a {
 .big-shoe{
   float:left;
   margin-top:40px;
-  margin-left: 60px;
+  padding: 20px;
   position:relative;
 }
 .top-right{
@@ -144,26 +144,51 @@ margin-bottom: 20px;
   margin: 4px 2px;
   border-radius: 12px;
 }
-.nav4{
-  padding: 0px
+
+.nav4 {
+    background: white;
+    padding-top: 30px;
 }
+
 .nav4 a:hover {
   text-decoration: underline;
   color: #9a2a40;
   text-decoration-color: #fcaaae;
   text-underline-position: below;
-  text-underline-offset: 6px;
+  text-underline-offset: 7px;
   text-decoration-thickness: 5px;
 }
+.nav4 ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+
+}
 .nav4 ul li {
-    float: left;
+    display: inline;
     color: #ff8164;
-    padding: 0px;
+    padding: 10px;
 }
 .rew{
-  float: right;
+  float:right;
+  zoom: 1;
+  overflow: auto;
   color: #ff8164;
-  margin-top: 15px;
+  margin-top: -10px;
+}
+.shop-rec{
+  background-color: #fdeaf0;
+  width: 100%;
+  justify-content: center;
+}
+.shop-text{
+  font-family: "Varela Round";
+  font-size: 15pt;
+  color: #503323;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .container2 {
     list-style-type: none;
@@ -175,20 +200,22 @@ margin-bottom: 20px;
     margin-bottom: 100px;
     font-family: "Varela Round";
     Color: #ff5c36;
-
 }
 h3{
   font-size: 15pt;
   font-family: "Varela Round";
   color: #4f3126;
   margin-left: 20pt;
+  display: inline;
 }
 h4{
   font-size: 12pt;
   font-family: "Varela Round";
   color: #4f3126;
   margin-left: 20pt;
+  display: inline;
 }
+
 
 .detail-p{
   font-size: 12pt;
@@ -197,11 +224,12 @@ h4{
   margin-left: 20pt;
 }
 .border-line{
-  margin-left: 20pt;
-  margin-top: -6px;
-  border-style:solid;
+  margin-left: 15pt;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border-style: solid;
   color: #fcaaae;
-  border-width: thin;
+  border-width: thin
 }
 .b-banner{
   padding-top: 50px;
@@ -216,16 +244,13 @@ h4{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 0;
-  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
   list-style: none;
-  text-align: LEFT;
 }
 
 .flex-item {
   padding: 5px;
-  width: 200px;
-  height: 150px;
   margin-top: 10px;
 }
 .flex-item2 {
@@ -238,6 +263,11 @@ h4{
   font-size: 8pt;
   font-family: "Varela Round";
   color: #9a2a40;
+
+}
+.flex-price{
+  display: inline;
+  margin-left: 0px;
 }
 
 footer ul {
