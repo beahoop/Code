@@ -52,6 +52,12 @@ a:link {
 .nav-right ul li {
     float: right;
 }
+.nav-right{
+  margin-right: 100px;
+}
+.ShoppingN{
+  display: inline;
+}
 .top-banner{
    background-image: linear-gradient(to right, #d82068 , #ed4039);
    padding-top: 10px;
@@ -77,6 +83,9 @@ a:link {
   padding: 20px;
   position:relative;
 }
+
+/*vh vw*/
+
 .top-right{
   padding-left: 650px;
 }
@@ -108,6 +117,7 @@ margin-bottom: 20px;
   font-size: 12pt;
   line-height: 25pt;
 }
+
 .read-rew{
   font-family: "Varela Round";
   font-size: 12pt;
@@ -122,60 +132,115 @@ margin-bottom: 20px;
   font-family: "arial rounded mt bold";
   vertical-align: middle;
   font-size: 20pt;
-  float:left;
+  display: inline;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
 
 }
-.button-1{
-  padding-top: 20px;
-  padding-right: 220px;
-  margin: 0px;
-}
+
+
 .button {
-  float: right;
+  display: inline;
+  margin-top: 30px;
   background-color: white;
   border: none;
   font-family: "arial rounded mt bold";
   color:#9a2a40 ;
-  padding: 12px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   border-radius: 12px;
 }
 
-.nav4 {
-    background: white;
-    padding-top: 30px;
+.button:hover {
+  border: 2px;
+  padding: 14px;
+  border-style: solid;
+  color: white;
+  background-color: #fb453a;
+  border-color: white;
 }
 
-.nav4 a:hover {
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+.rew {
+  float: right;
+
+}
+
+.tablinks{
+  font-family: "Varela Round";
+  Color: #ff5c36;
+  font-size: 12pt;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
   text-decoration: underline;
   color: #9a2a40;
   text-decoration-color: #fcaaae;
   text-underline-position: below;
-  text-underline-offset: 7px;
+  text-underline-offset: 11px;
   text-decoration-thickness: 5px;
 }
-.nav4 ul {
-  list-style-type: none;
-  margin: 10px;
-  padding: 0px;
 
+/* Create an active/current tablink class */
+.tab button.active {
+  text-decoration: underline;
+  color: #9a2a40;
+  text-decoration-color: #fcaaae;
+  text-underline-position: below;
+  text-underline-offset: 11px;
+  text-decoration-thickness: 5px;
 }
-.nav4 ul li {
-    display: inline;
-    color: #ff8164;
-    padding: 10px;
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
 }
-.rew{
-  float:right;
-  zoom: 1;
-  overflow: auto;
-  color: #ff8164;
-  margin-top: -10px;
+.detail-p{
+  font-size: 12pt;
+  font-family: "Varela Round";
+  color: grey;
+  margin-left: 20pt;
 }
+
+h5{
+  font-size: 15pt;
+  font-family: "Varela Round";
+  color: #4f3126;
+  margin-left: 20pt;
+  display: inline;
+}
+h6{
+  font-size: 12pt;
+  font-family: "Varela Round";
+  color: #4f3126;
+  margin-left: 20pt;
+  display: inline;
+}
+/* for tabs */
+
+
 .shop-rec{
   background-color: #fdeaf0;
   width: 100%;
@@ -201,21 +266,6 @@ margin-bottom: 20px;
     font-family: "Varela Round";
     Color: #ff5c36;
 }
-h3{
-  font-size: 15pt;
-  font-family: "Varela Round";
-  color: #4f3126;
-  margin-left: 20pt;
-  display: inline;
-}
-h4{
-  font-size: 12pt;
-  font-family: "Varela Round";
-  color: #4f3126;
-  margin-left: 20pt;
-  display: inline;
-}
-
 
 .detail-p{
   font-size: 12pt;
@@ -224,9 +274,8 @@ h4{
   margin-left: 20pt;
 }
 .border-line{
-  margin-left: 15pt;
-  margin-top: 6px;
-  margin-bottom: 15px;
+  margin-left: 12pt;
+  margin-bottom: 10px;
   border-style: solid;
   color: #fcaaae;
   border-width: thin
@@ -309,4 +358,30 @@ footer a:hover {
 .footer-left a {
   padding: 10px;
     color:#ff5c36;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default */
+h1 {
+  font-size: 14px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
 }
