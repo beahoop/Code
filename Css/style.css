@@ -84,8 +84,6 @@ a:link {
   position:relative;
 }
 
-/*vh vw*/
-
 .top-right{
   padding-left: 650px;
 }
@@ -352,36 +350,12 @@ footer a:hover {
     float: left;
     word-spacing: normal;
 }
+
+
 .footer-left ul li {
     float: left;
 }
 .footer-left a {
   padding: 10px;
     color:#ff5c36;
-}
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default */
-h1 {
-  font-size: 14px;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  h1 {
-    font-size: 24px;
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  h1 {
-    font-size: 36px;
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 48px;
-  }
 }
